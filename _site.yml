@@ -1,0 +1,28 @@
+name: "Jesús Carro"
+output_dir: "."
+navbar:
+  title: "Jesús Carro"
+  left:
+    - text: "Projects"
+      href: projects.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Software"
+      href: software.html
+    - text: "Press"
+      href: press.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:jcarro@usj.es
+    - icon: fa-github fa-lg
+      href: http://github.com/chuscarro
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/jcarro_bme
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/jcarro/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
